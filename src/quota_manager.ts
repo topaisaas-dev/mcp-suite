@@ -26,7 +26,7 @@ export interface QuotaEvaluation {
 
 const FREE_LIMIT = 25;
 const PROMPT_TOKEN_COST_PER_MILLION = 3.0; // Claude 3.5 Sonnet / GPT-4o reference ($3 / 1M tokens)
-const CHECKOUT_URL = 'https://buy.polar.sh/polar_cl_OUy6Q7GoY78aXhbdaFyoJ646wtXgD7mszAadt4FgJHz';
+const CHECKOUT_URL = 'https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite';
 
 export class QuotaManager {
   private static instance: QuotaManager | null = null;
@@ -210,7 +210,7 @@ export class QuotaManager {
       `─────────────────────────────────────────────────────────────────────────────`,
       `👉 UNLOCK UNLIMITED OFFLINE RUNS INSTANTLY:`,
       `   ${CHECKOUT_URL}`,
-      `   Price: $39/mo or $99 Lifetime (Instant VAT invoice + Ed25519 offline key)`,
+      `   Price: $0 / 7-Day Pro Trial or $49 One-Time Harness Kit (14-Day Money-Back Guarantee)`,
       ``,
       `🔑 To activate your license in Claude Desktop, Cursor or CI/CD:`,
       `   export TOPAI_LICENSE_KEY="AGENTPR-XXXXXXXXXXXXXXXX"`,

@@ -81,7 +81,7 @@ RUN npm install
     assert.equal(blockedEval.allowed, false);
     assert.equal(blockedEval.callCount, 26);
     assert.ok(blockedEval.paywallMessage.includes('TOPAI SUITE QUOTA EXCEEDED'));
-    assert.ok(blockedEval.paywallMessage.includes('https://buy.polar.sh/'));
+    assert.ok(blockedEval.paywallMessage.includes('https://topaigateway.com/checkout'));
   });
 
   test('7. QuotaManager bypasses paywall under emergency grace', () => {

@@ -1036,7 +1036,7 @@ npx playwright test --grep-invert "${manifest.configSnippets.playwrightGrepInver
 \`\`\`
 `;
     md += `
-> \u{1F513} [**Unlock Unlimited CI Quarantines & Team Analytics ($29/mo via Polar.sh)**](https://buy.polar.sh/polar_cl_iel9yWlONZUVA92iPTUR0WgdhRoWjYWCDtypa47534c)
+> \u{1F513} [**Unlock Unlimited CI Quarantines & Runaway Token Breaker ($29 Once — 14-Day Guarantee)**](https://topaigateway.com/checkout?pack=runaway_token_breaker&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite)
 `;
     return md;
   }
@@ -1356,7 +1356,7 @@ var BlastAnalyzer = class {
       }
       md += "\n";
     }
-    md += `> \u{1F513} [**Unlock Unlimited Enterprise Cloud Plans & Custom Pricing Tables ($49/mo via Polar.sh)**](https://buy.polar.sh/polar_cl_bHsPkpJfvHmG9STDpIdNGVMLpSwVG6wHoQPTz3Fa7TY)
+    md += `> \u{1F513} [**Unlock Unlimited Harness & Enterprise Cloud Plans ($49 Once — 14-Day Guarantee)**](https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite)
 `;
     return md;
   }
@@ -2075,7 +2075,7 @@ import path from "node:path";
 import os from "node:os";
 var FREE_LIMIT = 25;
 var PROMPT_TOKEN_COST_PER_MILLION = 3;
-var CHECKOUT_URL = "https://buy.polar.sh/polar_cl_OUy6Q7GoY78aXhbdaFyoJ646wtXgD7mszAadt4FgJHz";
+var CHECKOUT_URL = "https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite";
 var QuotaManager = class _QuotaManager {
   static instance = null;
   quotaFilePath;
@@ -2207,7 +2207,7 @@ var QuotaManager = class _QuotaManager {
       `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500`,
       `\u{1F449} UNLOCK UNLIMITED OFFLINE RUNS INSTANTLY:`,
       `   ${CHECKOUT_URL}`,
-      `   Price: $39/mo or $99 Lifetime (Instant VAT invoice + Ed25519 offline key)`,
+      `   Price: $0 / 7-Day Pro Trial or $49 One-Time Harness Kit (14-Day Money-Back Guarantee)`,
       ``,
       `\u{1F511} To activate your license in Claude Desktop, Cursor or CI/CD:`,
       `   export TOPAI_LICENSE_KEY="AGENTPR-XXXXXXXXXXXXXXXX"`,
@@ -2886,7 +2886,7 @@ var McpServer = class {
                       error: "QUOTA_EXCEEDED",
                       freeLimit: evaluation.freeLimit,
                       callCount: evaluation.callCount,
-                      checkoutUrl: "https://buy.polar.sh/polar_cl_OUy6Q7GoY78aXhbdaFyoJ646wtXgD7mszAadt4FgJHz"
+                      checkoutUrl: "https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite"
                     }
                   }
                 }

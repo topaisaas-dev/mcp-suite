@@ -716,7 +716,7 @@ export class McpServer {
                       error: 'QUOTA_EXCEEDED',
                       freeLimit: evaluation.freeLimit,
                       callCount: evaluation.callCount,
-                      checkoutUrl: 'https://buy.polar.sh/polar_cl_OUy6Q7GoY78aXhbdaFyoJ646wtXgD7mszAadt4FgJHz'
+                      checkoutUrl: 'https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=cli&utm_campaign=mcp_suite'
                     }
                   }
                 }

@@ -1,11 +1,12 @@
 # @topaisaas/mcp-suite
 
 > **Unified Model Context Protocol (MCP) Server for the TopAI Sovereign Appliance Suite.**  
-> Exposes 9 high-performance, deterministic developer tools natively to Claude Desktop, Cursor, and Windsurf via standard JSON-RPC 2.0 stdio.
+> Exposes 9 high-performance, deterministic developer tools natively to Claude Desktop, Cursor, and Windsurf via standard JSON-RPC 2.0 stdio — **sub-30ms execution, zero LLM token burn**.
 
 [![npm version](https://img.shields.io/npm/v/@topaisaas/mcp-suite.svg)](https://www.npmjs.com/package/@topaisaas/mcp-suite)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io)
+[![USD Checkout](https://img.shields.io/badge/14--Day%20Money--Back-Guarantee-FFD600.svg)](https://topaigateway.com/audit?utm_source=npm&utm_campaign=mcp_suite)
 
 ---
 
@@ -24,9 +25,44 @@ Add this to your `claude_desktop_config.json` or `.cursor/mcp.json`:
 }
 ```
 
+### Need 19 Cloud-Edge Deterministic MCP Tools Too?
+Pair this local appliance suite with our canonical 19-tool Edge MCP Server (`@topaisaas/mcp-server`):
+
+```json
+{
+  "mcpServers": {
+    "topai-edge": {
+      "command": "npx",
+      "args": ["-y", "@topaisaas/mcp-server"]
+    }
+  }
+}
+```
+
 ---
 
-## 🛠️ The 9 Built-in Developer Tools
+## 🔍 Free Interactive Diagnostics & Sample Previews (No Signup Required)
+
+- **Interactive FinOps Token Bleed Auditor**: Estimate your monthly LLM token waste and get a deterministic pruning blueprint in 10 seconds -> [**Run Free FinOps Audit**](https://topaigateway.com/audit?utm_source=npm&utm_campaign=mcp_suite)
+- **Cursor & Claude Code Sovereign Rules Preview**: Inspect our production `.cursorrules` / `CLAUDE.md` starter -> [**Preview Sample Rules**](https://topaigateway.com/download/samples/topai-cursor-rules.txt?utm_source=npm&utm_campaign=mcp_suite)
+- **n8n Sovereign Workflow Starter Preview**: Inspect a ready-to-import deterministic JSON workflow -> [**Preview n8n Starter**](https://topaigateway.com/samples/topai-n8n-starter.json?utm_source=npm&utm_campaign=mcp_suite)
+
+---
+
+## 💳 Hero Quartet — Direct USD Checkout (14-Day No-Questions-Asked Money-Back Guarantee)
+
+All TopAI toolkits and API plans are billed transparently in **USD ($)** via our edge checkout and backed by an unconditional **14-Day No-Questions-Asked Money-Back Guarantee**.
+
+| Plan / Toolkit | USD Price | What You Unlock | Instant Direct Checkout |
+| :--- | :--- | :--- | :--- |
+| **Pack 1: DevEx & FinOps Pro Trial** | **$0 / 7 Days** | 10,000 req/mo across 100+ sub-30ms deterministic edge APIs (`$14/mo` after trial, cancel anytime) | [**Start $0 7-Day Trial →**](https://topaigateway.com/checkout?pack=pack_1_devex&direct=true&utm_source=npm&utm_medium=readme&utm_campaign=mcp_suite) |
+| **n8n & Make 65-Workflow Super-Pack** | **$19 Once** | 65 production-hardened n8n & Make automation templates with zero-token edge connectors | [**Get Super-Pack ($19) →**](https://topaigateway.com/checkout?pack=bundle_n8n_make&direct=true&utm_source=npm&utm_medium=readme&utm_campaign=mcp_suite) |
+| **Runaway Token Breaker Shield** | **$29 Once** | Deterministic circuit-breaker kit to stop infinite agent loops & runaway LLM API bills | [**Get Breaker Shield ($29) →**](https://topaigateway.com/checkout?pack=runaway_token_breaker&direct=true&utm_source=npm&utm_medium=readme&utm_campaign=mcp_suite) |
+| **Cursor & Claude Code 169-Tool Harness Kit** | **$49 Once** | Complete 169-tool sovereign engineering harness, offline keys, hooks & CI/CD guardrails | [**Get 169-Tool Kit ($49) →**](https://topaigateway.com/checkout?pack=bundle_cursor_harness&direct=true&utm_source=npm&utm_medium=readme&utm_campaign=mcp_suite) |
+
+---
+
+## 🛠️ The 9 Built-in Local Developer Tools
 
 | MCP Tool Name | Description |
 | :--- | :--- |
@@ -46,10 +82,10 @@ Add this to your `claude_desktop_config.json` or `.cursor/mcp.json`:
 
 TopAI Sovereign MCP Suite comes with an out-of-the-box **Free Sandbox of 25 tool runs**, enabling immediate zero-friction evaluation directly inside Claude Desktop, Cursor, or Windsurf.
 
-### Activating Unlimited Pro / Lifetime Access
-To unlock unlimited runs for production pipelines, developer environments, or CI/CD:
-1. Obtain an instant Ed25519 offline license key via [Polar.sh Checkout](https://buy.polar.sh/polar_cl_OUy6Q7GoY78aXhbdaFyoJ646wtXgD7mszAadt4FgJHz)
-2. Inject the key into your environment or client config:
+### Activating Unlimited Pro / Harness Access
+To unlock unlimited offline runs for production pipelines, developer environments, or CI/CD:
+1. Choose a USD plan or one-time kit from the [Hero Quartet above](#-hero-quartet--direct-usd-checkout-14-day-no-questions-asked-money-back-guarantee) (backed by our **14-Day No-Questions-Asked Money-Back Guarantee**).
+2. Inject your instant Ed25519 offline license key into your environment or MCP client config:
 
 ```json
 {
@@ -76,4 +112,4 @@ This grants a 24-hour non-blocking bypass so builds never fail during release fr
 
 ## 📄 License
 
-Apache-2.0. Copyright (c) 2026 TopAI Sovereign Studio.
+Apache-2.0. Copyright (c) 2026 TopAI Sovereign Studio · [topaigateway.com](https://topaigateway.com)
